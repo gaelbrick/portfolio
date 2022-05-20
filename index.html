@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="home_handle">
-                    <img src="./assets/img/perfil.png" alt="" class="home_img">
+                    <img src="./assets/img/perfil2.png" alt="" class="home_img">
                 </div>
             
 
@@ -117,7 +117,7 @@
             <h2 class="section_title">About me</h2>
 
             <div class="about_container container grid">
-                <img src="./assets/img/about.jpg" alt="" class="about_img">
+                <img src="./assets/img/about.png" alt="" class="about_img">
 
                 <div class="about_data">
                     <div class="about_info">
@@ -588,65 +588,66 @@
             <span class="section_subtitle">Get in touch</span>
             <h2 class="section_title">Contact me</h2>
 
-            <div class="contact_conatiner container grid">
-                <div class="contact_content">
-                    <h3 class="contact_title">Talk to me</h3>
+            <div class="contact_container container grid">
+                    <div class="contact_content">
+                        <h3 class="contact_title">Talk to me</h3>
 
-                    <div class="contact_info">
-                        <div class="contact_card">
-                            <i class='bx bx-mail-send contact_card-icon'></i>
-                            <h3 class="contact_card-title">Email</h3>
-                            <span class="contact_card-data">gael1423@gmail.com</span>
+                        <div class="contact_info">
+                            <div class="contact_card">
+                                <i class='bx bx-mail-send contact_card-icon'></i>
+                                <h3 class="contact_card-title">Email</h3>
+                                <span class="contact_card-data">gael1423@gmail.com</span>
 
-                            <a href="mailto:gael1423@gmail.com" target="_blank" class="contact_button">
-                               Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
-                            </a>
-                        </div>
-
-                        <div class="contact_card">
-                            <i class='bx bxl-whatsapp contact_card-icon' ></i>
-                            <h3 class="contact_card-title">Whatsapp</h3>
-                            <span class="contact_card-data">7294998951</span>
-
-                            <a href="https://api.whatsapp.com/send?phone=527294998951&text=Hello!" target="_blank" class="contact_button">
-                              Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
-                            </a>
-                        </div>
-
-                        <div class="contact_card">
-                            <i class='bx bxl-messenger contact_card-icon' ></i>
-                            <h3 class="contact_card-title">Messenger</h3>
-                            <span class="contact_card-data">user.fb123</span>
-
-                            <a href="https://m.me/100075874692263" target="_blank" class="contact_button">
+                                <a href="mailto:gael1423@gmail.com" target="_blank" class="contact_button">
                                 Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
-                            </a>
+                                </a>
+                            </div>
+
+                            <div class="contact_card">
+                                <i class='bx bxl-whatsapp contact_card-icon' ></i>
+                                <h3 class="contact_card-title">Whatsapp</h3>
+                                <span class="contact_card-data">7294998951</span>
+
+                                <a href="https://api.whatsapp.com/send?phone=527294998951&text=Hello!" target="_blank" class="contact_button">
+                                Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact_card">
+                                <i class='bx bxl-messenger contact_card-icon' ></i>
+                                <h3 class="contact_card-title">Messenger</h3>
+                                <span class="contact_card-data">user.fb123</span>
+
+                                <a href="https://m.me/100075874692263" target="_blank" class="contact_button">
+                                    Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="contact_content">
-                    <h3 class="contact_title">Write me your project</h3>
+                    <div class="contact_content">
+                        <h3 class="contact_title">Write me your project</h3>
 
-                    <form action="" class="contact_form">
-                        <div class="contact_form-div">
-                            <label for="" class="contact_form-tag">Name</label>
-                            <input type="text" placeholder="Insert your name" class="contact_form-input">
-                        </div>
+                        <form action="https://formspree.io/f/moqryoll"
+                        method="POST" class="contact_form">
+                            <div class="contact_form-div">
+                                <label for="name" class="contact_form-tag">Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact_form-input" name="name">
+                            </div>
 
-                        <div class="contact_form-div">
-                            <label for="" class="contact_form-tag">Mail</label>
-                            <input type="text" placeholder="Insert your email" class="contact_form-input">
-                        </div>
+                            <div class="contact_form-div">
+                                <label for="email" class="contact_form-tag">Mail</label>
+                                <input type="email" placeholder="Insert your email" class="contact_form-input" name="email">
+                            </div>
 
-                        <div class="contact_form-div contact_form-area">
-                            <label for="" class="contact_form-tag">Project</label>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact_form-input"></textarea>
-                        </div>
+                            <div class="contact_form-div contact_form-area">
+                                <label for="message" class="contact_form-tag">Project</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact_form-input" name="message"></textarea>
+                            </div>
 
-                        <button class="button">Send Message</button>
-                    </form>
-                </div>
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    </div>
             </div>
         </section>
     </main>
@@ -691,7 +692,7 @@
     </footer>
 
     <!--SCROLL-->
-    <script src=""></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--SWIPER JS-->
     <script src="./assets/js/swiper-bundle.min.js"></script>
@@ -701,6 +702,9 @@
 
     <!--MAIN JS-->
     <script src="./assets/js/main.js"></script>
+
+    <!-- FORM JS -->
+    <!-- <script src="./assets/js/loadedForm.js"></script> -->
     
 </body>
 </html>
