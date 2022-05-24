@@ -121,7 +121,7 @@ body.light-theme{
     --text-color: hsl(var(--second-hue),8%, 35%);
     --text-color-light: hsl(var(--second-hue), 4%, 55%);
     --body-color: hsl(var(--second-hue), 100%, 99%);
-    --container-color: #fff;
+    --container-color: rgb(213, 224, 224);
 }
 
 /*Color changes in some parts of the website*/
@@ -625,6 +625,22 @@ body.light-theme{
     color: var(--first-color);
     cursor: pointer;
 }
+
+/* #services_modal-overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    pointer-events: none;
+}
+
+#services_modal-overlay.active{
+    opacity: 1;
+    pointer-events: all;
+} */
 
 /* Active modal */
 

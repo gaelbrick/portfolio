@@ -11,9 +11,10 @@ window-addEventListener('scroll', scrollHeader)
 const modalViews = document.querySelectorAll('.services_modal'),
       modalBtns = document.querySelectorAll('.services_button'),
       modalClose = document.querySelectorAll('.services_modal-close')
-
+      // overlay = document.getElementById('services_modal-overlay')
 let modal = function(modalCLick){
   modalViews[modalCLick].classList.add('active-modal')
+  // overlay.classList.add('active')
 }
 
 modalBtns.forEach((mb,i) =>{
@@ -29,6 +30,13 @@ modalClose.forEach((mc) =>{
     })
   })
 })
+
+// overlay.addEventListener('click', () =>{
+//   const modals = document.querySelectorAll('active-modal')
+//   modals.forEach(modal =>{
+    
+//   })
+// })
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.work_container', {
   selectors: {
