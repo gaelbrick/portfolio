@@ -210,7 +210,7 @@ body.light-theme{
 .section_title{
     font-size: var(--h2-font-size);
     color: var(--first-color);
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
 }
 
 .section_subtitle{
@@ -690,6 +690,9 @@ body.light-theme{
     transition: .4s;
 }
 
+.not{
+    padding-bottom: 2rem;
+}
 /* Active item work*/
 
 .active-work{
@@ -1034,7 +1037,7 @@ body.light-theme{
     }
 
     .section_title{
-        margin-bottom: 3.5rem;
+        margin-bottom: .5rem;
     }
 
     .nav{
