@@ -522,6 +522,28 @@ body.light-theme{
 .skills_level{
     font-size: var(--tiny-font-size);
 }
+
+.skills-images{
+    background-color: var(--container-color);
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 70px 70px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skills-images>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-img{
+    width: 50px;
+}
 /* Services */
 
 .services_container{
