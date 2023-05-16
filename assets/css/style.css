@@ -427,6 +427,9 @@ body.light-theme{
 }
 /* About */
 .about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     row-gap: 2.5rem;
 }
 
