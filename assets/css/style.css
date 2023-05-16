@@ -1004,7 +1004,8 @@ body.light-theme{
     }
 
     .about_info{
-        grid-template-columns: repeat(3, 140px);
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
 
@@ -1116,9 +1117,9 @@ body.light-theme{
     }
 
     .about_container{
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        column-gap: 4rem;
+        display: flex;
+        justify-content: flex;
+        align-items:flex;
     }
 
     .about_img{
